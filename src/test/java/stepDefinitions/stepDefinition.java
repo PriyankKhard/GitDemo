@@ -14,7 +14,7 @@ public class stepDefinition {
 
     @When("^User Enters User \"([^\"]*)\" and Password \"([^\"]*)\"$")
     public void user_enters_user_something_and_password_something(String strArg1, String strArg2) throws Throwable {
-    	System.out.println("user_enters :: "+strArg1+" as USER_and_PASSWORD_as :: "+strArg2);
+    	System.out.println("user_enters the details as:: "+strArg1+" as USER_and_PASSWORD_as :: "+strArg2);
     }
     
     @When("^User Enters Users (.+) and Passwords (.+)$")
